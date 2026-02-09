@@ -8,7 +8,7 @@
 1. jenkins 用户名、token、地址
 2. 邮箱配置
 
-示例如下
+创建 jenkins_config.ini 文件，示例如下
 ```
 [jenkins]
 url = http://10.0.0.161:18080
