@@ -17,3 +17,5 @@ ENV/
 
 # OS
 .DS_Store
+
+jenkins_config.ini

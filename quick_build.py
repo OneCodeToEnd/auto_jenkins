@@ -90,7 +90,7 @@ class JenkinsQuickBuild:
 
         # 构建URL和参数
         url = f"{self.base_url}/job/{job_name}/buildWithParameters"
-        params = {'tag': branch}
+        params = {'tag': branch, 'branch':branch}
 
         self._print_separator()
         print(f"\n📡 请求详情:")
