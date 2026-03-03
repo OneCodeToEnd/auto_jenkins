@@ -1,0 +1,9 @@
+# HTTP 请求库
+requests>=2.31.0
+
+# 配置文件解析（Python 标准库，无需安装）
+# configparser
+
+# 邮件发送（Python 标准库，无需安装）
+# smtplib
+# email

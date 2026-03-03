@@ -34,5 +34,8 @@ log "目标脚本目录:${SCRIPT_DIR}"
  # 切换到脚本目录
 cd "$SCRIPT_DIR"
 
+DEPLOY_CMD="sudo /data/script/deployment.sh $1"
+log "部署命令：${DEPLOY_CMD}"
+
 # 执行 Python 脚本，传递所有参数
 python3 quick_build.py "$@"
